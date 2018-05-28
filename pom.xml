@@ -3,16 +3,16 @@
     <groupId>be.nmine</groupId>
     <artifactId>git-workflow</artifactId>
     <packaging>jar</packaging>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
 
     <properties>
         <project.scm.id>github</project.scm.id>
     </properties>
 
     <scm>
-        <url>scm:git:file://E:/drive/info/Projets/github/test_git.git</url>
-        <connection>scm:git:file://E:/drive/info/Projets/github/test_git.git</connection>
-        <developerConnection>scm:git:file://E:/drive/info/Projets/github/test_git.git</developerConnection>
+        <url>scm:git:file://E:/drive/info/Projets/github/test_git/.git</url>
+        <connection>scm:git:file://E:/drive/info/Projets/github/test_git/.git</connection>
+        <developerConnection>scm:git:file://E:/drive/info/Projets/github/test_git/.git</developerConnection>
       <tag>git-workflow-1.0.0</tag>
   </scm>
     <build>
