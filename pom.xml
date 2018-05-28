@@ -10,9 +10,9 @@
     </properties>
 
     <scm>
-        <url>scm:git:file://E:/drive/Projets/github/test_git.git</url>
-        <connection>scm:git:file://E:/drive/Projets/github/test_git.git</connection>
-        <developerConnection>scm:git:file://E:/drive/Projets/github/test_git.git</developerConnection>
+        <url>scm:git:file://E:/drive/info/Projets/github/test_git.git</url>
+        <connection>scm:git:file://E:/drive/info/Projets/github/test_git.git</connection>
+        <developerConnection>scm:git:file://E:/drive/info/Projets/github/test_git.git</developerConnection>
       <tag>git-workflow-1.0.0</tag>
   </scm>
     <build>
