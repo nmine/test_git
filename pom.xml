@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>be.nmine</groupId>
     <artifactId>git-workflow</artifactId>
@@ -10,11 +11,10 @@
     </properties>
 
     <scm>
-        <url>https://github.com/nmine/test_git</url>
-        <connection>scm:git:git://github.com/nmine/test_git.git</connection>
-        <developerConnection>scm:git:git://github.com/nmine/test_git.git</developerConnection>
-      <tag>git-workflow-1.0.0</tag>
-  </scm>
+        <url>scm:git:file://E:/drive/Projets/github/test_git.git</url>
+        <connection>scm:git:file://E:/drive/Projets/github/test_git.git</connection>
+        <developerConnection>scm:git:file://E:/drive/Projets/github/test_git.git</developerConnection>
+    </scm>
     <build>
         <plugins>
             <plugin>
