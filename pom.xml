@@ -25,30 +25,5 @@
         </plugins>
     </build>
 
-    <repositories>
-        <!-- Cloudbees maven repositories for releases and snapshots -->
-        <repository>
-            <id>github</id>
-            <name>javaetmoi-cloudbees-release</name>
-            <url>https://repository-javaetmoi.forge.cloudbees.com/release/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>github</id>
-            <name>javaetmoi-cloudbees-snapshot</name>
-            <url>https://repository-javaetmoi.forge.cloudbees.com/snapshot/</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
 </project>
 
